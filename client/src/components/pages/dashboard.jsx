@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { Component, useState, useEffect }  from 'react'
 import { Header } from '../modules/header'
 import SideBar from '../modules/sidebar'
 import Upper_row from '../modules/upper_row'
 import Lower_row from '../modules/lower_row'
+import axios from 'axios';
 
 const Dashboard = () => {
   return (
@@ -12,9 +13,6 @@ const Dashboard = () => {
         <div className="dashboard__modules">
           <div className="upper__row">
             <Upper_row />
-          </div>
-          <div className="lower__row">
-            <Lower_row />
           </div>
         </div>
         </div>

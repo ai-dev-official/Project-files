@@ -213,7 +213,7 @@
 /* Dashboard Modules */
 .dashboard__modules{
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   row-gap: 20px;
   margin-top: 20px;
 }
@@ -452,3 +452,27 @@
   margin-top: -15px;
 }
 
+.piechart { 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}
+
+.pie_chart{
+  position: absolute;
+}
+
+.central{
+  font-size: 14px; 
+  margin: 0; 
+  color: #ff0000;
+  font-weight: 900; 
+}
+
+.central_label{
+  font-size: 14px; 
+  margin: 0; 
+  color: #ffffff;
+  font-weight: 900;
+}

@@ -78,7 +78,8 @@ const Upper_row = () => {
           </div>
         </div>
         <div className="topup__2">
-          <Pie_chart />
+        <Pie_chart userId={1} />
+
         </div>
       </div>
 
